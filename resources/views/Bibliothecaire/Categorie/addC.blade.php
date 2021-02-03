@@ -3,7 +3,7 @@
         <div class="content-inner">
         <header class="page-header">
             <div class="container-fluid">
-              <h2 class="no-margin-bottom">AJout Lecteur</h2>
+              <h2 class="no-margin-bottom">Ajout Categorie</h2>
             </div>
           </header>
         <section class="forms"> 
@@ -26,11 +26,15 @@
                       <form action="/categorie" method="POST"> 
                         <div class="form-group">
                           <label class="form-control-label">Nom categorie : </label>
-                          <input type="text" placeholder="Nom cathegorie" name="NomCathegorie" class="form-control">
+                          <input type="text" placeholder="Nom categorie" name="NomCategorie" class="form-control">
                         </div>
-                       
+                        <div class="form-group">
+                            <label for="fileInput" class="form-control-label">Ajoutez une photo</label>
+                             <input id="fileInput" name="photo" type="file" class="form-control-file">
+   
+                        </div>
                         <div class="form-group">       
-                          <input type="submit" value="Enregistre" class="btn btn-primary">
+                          <input type="submit" value="Enregistrer" class="btn btn-primary">
                         </div>
                       </form>
                     </div>

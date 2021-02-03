@@ -30,7 +30,7 @@ Route:: view('ajoutL','Bibliothecaire/Lecteur/add');
 Route:: view('listeL','Bibliothecaire/Lecteur/view');
 Route:: view('addD','Bibliothecaire/Document/addD');
 Route:: view('listD','Bibliothecaire/Document/listD');
-Route:: view('addC','Bibliothecaire/cathegorie/addC');
-Route:: view('listC','Bibliothecaire/cathegorie/listC');
+Route:: view('addC','Bibliothecaire/categorie/addC');
+Route:: view('listC','Bibliothecaire/categorie/listC');
 Route::view('profilB','Bibliothecaire/profilB');
 
