@@ -1,2 +1,2 @@
 # ISI_BIBLIO
-ce consite a mettre en place une plateforme de gestion d'un bibliotheque
+Ce projet consiste à mettre en place une plateforme de gestion d'une bibliotheque numerique avec le Framework Laravel
